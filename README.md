@@ -5,4 +5,6 @@ Steps to setup
 3.  Execute : "env\scripts\activate" to Start virtual environment for the windows machine.
 4.  Execute : "pip install -r requirements.txt" to install the dependencies.
 5.  Execute : "python manage.py runserver" to start the server.
-6.  Go to : "localhost:8000/chat" in your browser.
+6.  Execute : "python manage.py migrate".
+7.  Go to : "localhost:8000/chat" in your browser.
+
